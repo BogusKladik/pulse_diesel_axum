@@ -1,8 +1,7 @@
 // @generated automatically by Diesel CLI.
 
 diesel::table! {
-    tokens (id) {
-        id -> Int4,
+    tokens (user_id) {
         user_id -> Int4,
         token -> Text,
     }
